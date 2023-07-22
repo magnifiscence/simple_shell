@@ -52,6 +52,7 @@ int _strlen(char *s)
 		return (len);
 	}
 }
+
 /**
  * _strcmp - function compares two strings
  * @x: first string

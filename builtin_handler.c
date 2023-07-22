@@ -1,31 +1,4 @@
 #include "shell.h"
-
-/**
- * builtin_handler - predicts the function needed for execution
- * @s: name of the function.
- * Return: void
- */
-void (*builtin_handler(char *s))(char *s)
-{
-	int res;
-
-	builtin_res beta[] = {
-		{"env", cmd_env},
-		{"exit", cmd_exit},
-		{"cd", cmd_cd},
-		{NULL, NULL}
-	};
-
-	for (res = 0; beta[res].num != NULL; res++)
-	{
-		if (_strcmp(s, beta[res].num) == 0)
-		{
-			return (beta[res].cmd_func);
-		}
-	}
-	return (NULL);
-}
-
 /**
  * execute_builtin - function executes a built_in command if it exist
  * @args: argument arrays passed to the shell.
