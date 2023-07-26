@@ -42,10 +42,13 @@ int _strlen(char *s)
 {
 	int len;
 
-	for (len = 0; s[len] != '\0'; len++)
+	if (s == NULL)
 	{
-		return (len);
+		return (0);
 	}
+	for (len = 0; s[len] != '\0'; len++)
+		;
+	return (len);
 }
 
 /**
