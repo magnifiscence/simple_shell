@@ -20,7 +20,7 @@ void free_db(char **db_ptr)
  * @nin: represents an unsigned int
  * Return:int
  */
-int print_number(int nin)
+int print_num(int nin)
 {
 	int quo, l;
 	unsigned int lat;

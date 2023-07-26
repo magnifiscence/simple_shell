@@ -77,11 +77,11 @@ int _strcmp(char *x, char *y)
 }
 
 /**
- * _strdup - function dublicates a string
+ * _strdub - function dublicates a string
  * @start: initial string
  * Return: copy of string
  */
-char *_strdup(char *start)
+char *_strdub(char *start)
 {
 	int index, length;
 	char *end;
