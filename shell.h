@@ -23,7 +23,7 @@
  */
 typedef struct builtin
 {
-	char *name;
+	char *num;
 	void (*cmd_func)(char *);
 } builtin_res;
 extern char **environ;

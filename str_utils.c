@@ -42,11 +42,6 @@ int _strlen(char *s)
 {
 	int len;
 
-	if (s == NULL)
-	{
-		return (0);
-	}
-
 	for (len = 0; s[len] != '\0'; len++)
 	{
 		return (len);
