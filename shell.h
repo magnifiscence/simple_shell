@@ -17,7 +17,7 @@
 /**
  * struct builtin - this structure represents build-in commands and
  * its corresponding functions.
- * @name: name of built-in command.
+ * @num: name of built-in command.
  * @cmd_func: represents pointer to the function that executes
  * the built-in command.
  */

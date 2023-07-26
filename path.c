@@ -5,7 +5,7 @@
  * representing the command line and the other the path directory.
  * @dir: represents directory in a path
  * @cmd: file in a directory of the path
- * return: on success a string representing the full path of a command
+ * Return: on success a string representing the full path of a command
  * otherwise NULL.
  */
 char *create_path(char *dir, char *cmd)
